@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+        content="Influencers Module – an informational and educational resource for content creators, influencers, and social media users on responsible communication." />
+  <title>Influencers Module</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════
+       Automatic Opening Message (first-access modal)
+       ══════════════════════════════════════════════ -->
+  <div id="opening-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div id="opening-modal">
+      <div class="modal-icon" aria-hidden="true">📢</div>
+      <h2 id="modal-title">Welcome to the Influencers Module</h2>
+      <p id="modal-body">
+        This is an informational space about responsible communication.
+        The content presented here does not replace academic training,
+        professional guidance, or clinical counseling.
+      </p>
+
+      <div class="modal-limits" role="note">
+        <p><strong>⚠️ This module does not:</strong></p>
+        <ul id="modal-limits-list">
+          <!-- Populated by module.js -->
+        </ul>
+      </div>
+
+      <button id="btn-acknowledge" type="button">
+        I understand and wish to continue
+      </button>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════
+       Application Header
+       ══════════════════════════════════════════════ -->
+  <header id="app-header">
+    <div class="header-inner">
+      <div class="header-brand">
+        <span class="brand-icon" aria-hidden="true">📡</span>
+        <div class="brand-text">
+          <h1>Influencers Module</h1>
+          <span>Responsible Communication Guide</span>
+        </div>
+      </div>
+
+      <span class="header-badge" aria-label="Framework position: before step 3">
+        🔷 Before Step 3 · Informational
+      </span>
+
+      <div class="header-controls" role="group" aria-label="Language selector">
+        <button id="btn-lang-en" class="lang-btn active" type="button"
+                aria-pressed="true" aria-label="Switch to English">EN</button>
+        <button id="btn-lang-pt" class="lang-btn" type="button"
+                aria-pressed="false" aria-label="Mudar para Português">PT</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════
+       Main Content
+       ══════════════════════════════════════════════ -->
+  <main id="main-content">
+
+    <!-- Hero Banner -->
+    <div class="hero-banner" role="banner">
+      <span class="badge">📚 Informational &amp; Educational</span>
+      <h2 id="hero-title">Welcome to the Influencers Module</h2>
+      <p id="hero-desc">
+        This module supports content creators, influencers, and social media users
+        in responsibly communicating sensitive topics.
+      </p>
+    </div>
+
+    <!-- Depth Limits Banner -->
+    <div class="limits-banner" role="note" aria-label="Module limits">
+      <span class="limits-icon" aria-hidden="true">⚠️</span>
+      <div>
+        <h3 id="limits-title">Limits of this Module</h3>
+        <ul id="limits-list">
+          <!-- Populated by module.js -->
+        </ul>
+      </div>
+    </div>
+
+    <!-- Section Navigation -->
+    <nav id="section-nav" class="section-nav" aria-label="Module sections" role="tablist">
+      <!-- Populated by module.js -->
+    </nav>
+
+    <!-- Content Sections -->
+    <div id="sections-container">
+      <!-- Populated by module.js -->
+    </div>
+
+    <!-- Framework Integration Card -->
+    <div class="framework-card" role="complementary" aria-label="Framework integration information">
+      <span class="fw-icon" aria-hidden="true">🔷</span>
+      <div>
+        <h3 id="fw-title">Framework Integration</h3>
+        <p id="fw-text">
+          The Influencers Module is fully integrated into the Blueprint and follows
+          all framework rules, filters, and ethical principles.
+        </p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ══════════════════════════════════════════════
+       Footer
+       ══════════════════════════════════════════════ -->
+  <footer>
+    <strong>Influencers Module</strong> — Informational &amp; Educational ·
+    Positioned before Framework Step 3 ·
+    Does not replace academic training, professional guidance, or clinical counseling.
+  </footer>
+
+  <script src="module.js"></script>
+</body>
+</html>
