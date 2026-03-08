@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "moduleId": "influencers-module",
+    "version": "1.0.0",
+    "frameworkPosition": "before-step-3",
+    "focusType": "informational"
+  },
+  "openingMessage": {
+    "pt": {
+      "title": "Bem-vindo ao Módulo Influenciadores",
+      "body": "Este é um espaço informativo sobre comunicação responsável. O conteúdo aqui apresentado não substitui formação acadêmica, orientação profissional ou aconselhamento clínico. Seu objetivo é apoiar criadores de conteúdo, influenciadores e usuários de redes sociais na comunicação ética e responsável de temas sensíveis.",
+      "acknowledge": "Entendi e desejo continuar"
+    },
+    "en": {
+      "title": "Welcome to the Influencers Module",
+      "body": "This is an informational space about responsible communication. The content presented here does not replace academic training, professional guidance, or clinical counseling. Its goal is to support content creators, influencers, and social media users in ethically and responsibly communicating sensitive topics.",
+      "acknowledge": "I understand and wish to continue"
+    }
+  },
+  "limits": {
+    "pt": {
+      "title": "Limites deste Módulo",
+      "items": [
+        "Este módulo não realiza aconselhamento terapêutico.",
+        "Este módulo não fornece diagnóstico psicológico.",
+        "Este módulo não oferece orientação clínica.",
+        "O conteúdo está restrito à organização da narrativa, clareza conceitual e responsabilidade comunicacional."
+      ]
+    },
+    "en": {
+      "title": "Limits of this Module",
+      "items": [
+        "This module does not provide therapeutic counseling.",
+        "This module does not provide psychological diagnosis.",
+        "This module does not offer clinical guidance.",
+        "Content is restricted to narrative organization, conceptual clarity, and communicational responsibility."
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "responsible-communication",
+      "pt": {
+        "title": "Comunicação Responsável",
+        "description": "Orientações sobre como comunicar ideias, crenças, opiniões e conteúdos informativos de forma ética, clara e responsável.",
+        "guidelines": [
+          {
+            "heading": "Evite promessas absolutas",
+            "text": "Não afirme que algo é 100% certo, eficaz ou garantido. Use linguagem que reflita incerteza quando ela existir, como 'pode', 'em muitos casos', 'segundo estudos'."
+          },
+          {
+            "heading": "Diferencie opinião de fato",
+            "text": "Deixe claro quando você está compartilhando uma opinião pessoal versus informações factuais verificáveis. Frases como 'na minha visão' ou 'acredito que' ajudam nessa distinção."
+          },
+          {
+            "heading": "Cite fontes confiáveis",
+            "text": "Ao compartilhar dados, pesquisas ou afirmações técnicas, mencione a fonte. Isso aumenta a credibilidade e permite que seu público verifique as informações."
+          },
+          {
+            "heading": "Reconheça os limites do seu conhecimento",
+            "text": "Admita quando algo está além da sua área de especialidade e indique profissionais ou fontes que possam aprofundar o tema."
+          }
+        ]
+      },
+      "en": {
+        "title": "Responsible Communication",
+        "description": "Guidance on how to communicate ideas, beliefs, opinions, and informational content in an ethical, clear, and responsible way.",
+        "guidelines": [
+          {
+            "heading": "Avoid absolute promises",
+            "text": "Do not claim that something is 100% certain, effective, or guaranteed. Use language that reflects uncertainty when it exists, such as 'may', 'in many cases', 'according to studies'."
+          },
+          {
+            "heading": "Distinguish opinion from fact",
+            "text": "Make it clear when you are sharing a personal opinion versus verifiable factual information. Phrases like 'in my view' or 'I believe that' help with this distinction."
+          },
+          {
+            "heading": "Cite reliable sources",
+            "text": "When sharing data, research, or technical claims, mention the source. This increases credibility and allows your audience to verify the information."
+          },
+          {
+            "heading": "Acknowledge the limits of your knowledge",
+            "text": "Admit when something is beyond your area of expertise and indicate professionals or sources that can explore the topic further."
+          }
+        ]
+      }
+    },
+    {
+      "id": "misinformation-prevention",
+      "pt": {
+        "title": "Prevenção de Desinformação",
+        "description": "Como evitar a disseminação de informações falsas ou enganosas.",
+        "guidelines": [
+          {
+            "heading": "Verifique antes de compartilhar",
+            "text": "Utilize ferramentas de checagem de fatos e portais confiáveis antes de replicar informações, especialmente sobre saúde, ciência ou política."
+          },
+          {
+            "heading": "Contextualize os dados",
+            "text": "Números e estatísticas fora de contexto podem ser enganosos. Sempre apresente o contexto completo e a fonte original."
+          },
+          {
+            "heading": "Corrija erros publicamente",
+            "text": "Se você compartilhou informações incorretas, faça uma correção pública e visível, no mesmo canal e com alcance equivalente."
+          },
+          {
+            "heading": "Evite sensacionalismo",
+            "text": "Títulos e afirmações exageradas atraem atenção, mas podem gerar danos psicológicos e jurídicos. Prefira clareza e precisão."
+          }
+        ]
+      },
+      "en": {
+        "title": "Misinformation Prevention",
+        "description": "How to avoid spreading false or misleading information.",
+        "guidelines": [
+          {
+            "heading": "Verify before sharing",
+            "text": "Use fact-checking tools and reliable portals before replicating information, especially about health, science, or politics."
+          },
+          {
+            "heading": "Contextualize data",
+            "text": "Numbers and statistics out of context can be misleading. Always present the full context and original source."
+          },
+          {
+            "heading": "Publicly correct mistakes",
+            "text": "If you shared incorrect information, make a public and visible correction on the same channel with equivalent reach."
+          },
+          {
+            "heading": "Avoid sensationalism",
+            "text": "Exaggerated headlines and claims attract attention but can cause psychological and legal harm. Prefer clarity and precision."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sensitive-topics",
+      "pt": {
+        "title": "Comunicação de Temas Sensíveis",
+        "description": "Orientações específicas para abordar temas que envolvem saúde mental, política, religião e outros assuntos delicados.",
+        "guidelines": [
+          {
+            "heading": "Saúde mental",
+            "text": "Ao abordar saúde mental, evite diagnósticos, não romantize transtornos e sempre indique que o público procure apoio profissional quando necessário."
+          },
+          {
+            "heading": "Política e religião",
+            "text": "Apresente diferentes perspectivas com respeito. Evite incitar conflitos ou apresentar sua visão como a única verdade."
+          },
+          {
+            "heading": "Finanças e investimentos",
+            "text": "Não forneça orientação financeira como se fosse aconselhamento profissional. Indique sempre que o público consulte um especialista certificado."
+          },
+          {
+            "heading": "Questões legais",
+            "text": "Evite interpretações legais definitivas. Indique sempre que questões jurídicas devem ser tratadas com um profissional do direito."
+          }
+        ]
+      },
+      "en": {
+        "title": "Communicating Sensitive Topics",
+        "description": "Specific guidance for addressing topics involving mental health, politics, religion, and other delicate subjects.",
+        "guidelines": [
+          {
+            "heading": "Mental health",
+            "text": "When addressing mental health, avoid diagnoses, do not romanticize disorders, and always indicate that the audience should seek professional support when needed."
+          },
+          {
+            "heading": "Politics and religion",
+            "text": "Present different perspectives with respect. Avoid inciting conflict or presenting your view as the only truth."
+          },
+          {
+            "heading": "Finance and investments",
+            "text": "Do not provide financial guidance as if it were professional advice. Always indicate that the audience should consult a certified specialist."
+          },
+          {
+            "heading": "Legal matters",
+            "text": "Avoid definitive legal interpretations. Always indicate that legal matters should be addressed with a legal professional."
+          }
+        ]
+      }
+    },
+    {
+      "id": "narrative-organization",
+      "pt": {
+        "title": "Organização da Narrativa",
+        "description": "Como estruturar sua mensagem de forma clara, coerente e responsável.",
+        "guidelines": [
+          {
+            "heading": "Clareza conceitual",
+            "text": "Defina os termos que você usa, especialmente em temas técnicos. Evite jargões sem explicação."
+          },
+          {
+            "heading": "Estrutura lógica",
+            "text": "Organize seu conteúdo com introdução, desenvolvimento e conclusão. Uma narrativa bem estruturada facilita a compreensão e reduz mal-entendidos."
+          },
+          {
+            "heading": "Tom e linguagem",
+            "text": "Adapte o tom ao contexto e ao público. Mantenha a linguagem inclusiva, respeitosa e acessível."
+          },
+          {
+            "heading": "Responsabilidade editorial",
+            "text": "Revise seu conteúdo antes de publicar. Erros de informação têm consequências reais para seu público."
+          }
+        ]
+      },
+      "en": {
+        "title": "Narrative Organization",
+        "description": "How to structure your message in a clear, coherent, and responsible way.",
+        "guidelines": [
+          {
+            "heading": "Conceptual clarity",
+            "text": "Define the terms you use, especially in technical topics. Avoid unexplained jargon."
+          },
+          {
+            "heading": "Logical structure",
+            "text": "Organize your content with an introduction, development, and conclusion. A well-structured narrative facilitates understanding and reduces misunderstandings."
+          },
+          {
+            "heading": "Tone and language",
+            "text": "Adapt the tone to the context and audience. Maintain inclusive, respectful, and accessible language."
+          },
+          {
+            "heading": "Editorial responsibility",
+            "text": "Review your content before publishing. Misinformation has real consequences for your audience."
+          }
+        ]
+      }
+    }
+  ],
+  "frameworkIntegration": {
+    "pt": {
+      "title": "Integração ao Framework",
+      "text": "O Módulo Influenciadores está plenamente integrado ao Blueprint e segue todas as regras, filtros e princípios éticos do framework, funcionando como uma opção declarada de foco informativo, sem interferir na leitura cognitiva ou profundidade do sistema."
+    },
+    "en": {
+      "title": "Framework Integration",
+      "text": "The Influencers Module is fully integrated into the Blueprint and follows all framework rules, filters, and ethical principles, functioning as a declared informational focus option without interfering with the system's cognitive reading or depth."
+    }
+  }
+}
