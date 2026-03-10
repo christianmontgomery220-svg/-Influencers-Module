@@ -176,13 +176,16 @@ function activateSection(sectionId, nav) {
   state.activeSection = sectionId;
 
   /* Update nav buttons */
-  (nav || document.getElementById('section-nav'))
-    .querySelectorAll('.section-nav-btn')
-    .forEach(btn => {
-      const active = btn.dataset.section === sectionId;
-      btn.classList.toggle('active', active);
-      btn.setAttribute('aria-selected', active ? 'true' : 'false');
-    });
+  const navEl = nav || document.getElementById('section-nav');
+  if (navEl) {
+    navEl
+      .querySelectorAll('.section-nav-btn')
+      .forEach(btn => {
+        const active = btn.dataset.section === sectionId;
+        btn.classList.toggle('active', active);
+        btn.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+  }
 
   /* Show / hide content panels */
   document.querySelectorAll('.content-section').forEach(panel => {
