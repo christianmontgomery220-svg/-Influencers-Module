@@ -1,3 +1,8 @@
+Part of the **TCF / TFB + Anonymo Ecosystem**  
+System hub: https://github.com/christianmontgomery220-svg/tcf-anonymo-ecosystem
+
+---
+
 # Influencers Module · Módulo Influenciadores
 
 > **Informational & Educational · Before Framework Step 3**
